@@ -4,13 +4,13 @@
         <title>falseresync blog</title>
         <link>https://falseresync.ru/</link>
         <description>Stuff I want to put out there in the Eenternet</description>
-        <lastBuildDate>Wed, 10 Jun 2020 15:23:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2020 19:08:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Gridsome Feed Plugin</generator>
         <item>
             <title><![CDATA[Fabric mod: Simple item]]></title>
-            <link>https://falseresync.ru/fabric-mod-simple-item/</link>
-            <guid>https://falseresync.ru/fabric-mod-simple-item/</guid>
+            <link>https://falseresync.ru/blog/fabric-mod-simple-item/</link>
+            <guid>https://falseresync.ru/blog/fabric-mod-simple-item/</guid>
             <pubDate>Wed, 10 Jun 2020 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[
 Adding an item is super simple with Fabric. First, you need to register your item:
