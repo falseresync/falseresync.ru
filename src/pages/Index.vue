@@ -13,7 +13,7 @@ export default {
     PostList,
   },
   metaInfo: {
-    title: "A simple blog"
+    title: "Me on the Eenternet"
   },
   computed: {
     years() {

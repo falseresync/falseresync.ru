@@ -41,8 +41,8 @@ body {
   margin: 0;
   padding: 0;
   padding-bottom: 10rem;
-  line-height: 1.5;
 }
+
 .layout {
   max-width: 760px;
   margin: 0 auto;
@@ -50,19 +50,12 @@ body {
   padding-right: 20px;
 }
 
-.footer a {
-  color: gray;
-}
-
-.footer-links a {
-  margin: 0 4px;
-}
-
 a {
   border-bottom: 1px solid currentColor;
   color: rgb(32, 201, 151);
   text-decoration: none;
 }
+
 a:hover {
   border-bottom-color: currentColor;
   color: #686868;

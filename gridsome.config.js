@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: 'falseresync blog',
+  siteName: 'falseresync',
   siteUrl: 'https://falseresync.ru/',
   plugins: [
     {
@@ -7,7 +7,7 @@ module.exports = {
       options: {
         path: 'content/posts/**/*.md',
         typeName: 'Post',
-        route: '/:title',
+        route: '/blog/:title',
         remark: {
           plugins: [
             ['@gridsome/remark-prismjs', { transformInlineCode: true }]
