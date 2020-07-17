@@ -1,3 +1,5 @@
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 module.exports = {
   siteName: 'falseresync',
   siteUrl: 'https://falseresync.ru/',
@@ -52,5 +54,17 @@ module.exports = {
         })
       }
     }
-  ]
+  ],
+  chainWebpack: config => {
+    // UNCOMMENT ON HYDRATION ERROR
+    // config.mode('development');
+
+    // UNCOMMENT FOR BUNDLE ANALYSIS REPORT
+    // config
+    //   .plugin('BundleAnalyzerPlugin')
+    //   .use(BundleAnalyzerPlugin, [{ analyzerMode: 'static' }]);
+  },
+  permalinks: {
+    trailingSlash: false
+  }
 };
