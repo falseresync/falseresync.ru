@@ -8,7 +8,7 @@ date: 2020-07-17
 - Prefer background color shadow, shadow over border
 - Don’t introduce new colors
 - Larger element - larger border radius
-- No pills
+- No pills (fully rounded boxes)
 - Prefer spacing and color over font weight, font weight over font size, and avoid font style
 - Smaller font - larger letter spacing and higher background contrast, especially when if font is bold
 - Layout hierarchy always takes preference over semantics. For instance: don’t make the “Delete” button big and red, even if it is very dangerous, unless that button is the main action. If it isn’t, don’t draw unnecessary attention to it. You’ll have your warning displayed elsewhere elsehow more efficiently
@@ -17,7 +17,8 @@ date: 2020-07-17
 ## Typography
 
 ### Fonts
-- Brand font is Inter. It must be used for logos and on any landing page or page, containing information regarding the project itself (not necessarily the users’ content)
+- Logo font is Montserrat Alternatives
+- Brand font is Inter. It must be used for any landing page or page, containing information regarding the project itself (not necessarily the users’ content)
 - Default font for any code presented on the project is Roboto Mono
 - In user content editing tools Inter should be the default font
 - Any other fonts in cases, not described above, should only be used if it is required by the environment
