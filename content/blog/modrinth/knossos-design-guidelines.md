@@ -1,7 +1,8 @@
 ---
-title: "Modrinth: Knossos design guidelines"
-description: "Design directions for contributors and members of the Modrinth project"
-date: 2020-07-17
+title: Modrinth - Knossos design guidelines
+slug: modrinth-knossos-design-guidelines
+description: Design directions for contributors and members of the Modrinth project
+createdAt: 2020-07-17
 ---
 
 ## Basic guidelines

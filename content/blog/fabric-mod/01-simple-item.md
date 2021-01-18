@@ -1,7 +1,8 @@
 ---
-title: "Fabric mod: Simple item"
-description: "How to make a simple item with Fabric Minecraft modding toolchain"
-date: 2020-06-10
+title: Fabric mod - Simple item
+slug: fabric-mod-simple-item
+description: How to make a simple item with Fabric Minecraft modding toolchain
+createdAt: 2020-06-10
 ---
 
 Adding an item is super simple with Fabric. First, you need to register your item:
